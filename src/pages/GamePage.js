@@ -5,7 +5,7 @@ function GamePage() {
   return (
     <div className="Game-Page">
       <header className="Game-Page-Header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="Game-Page-logo" alt="logo" />
         <p>Level 1</p>
       </header>
     </div>
