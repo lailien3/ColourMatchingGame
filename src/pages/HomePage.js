@@ -1,20 +1,16 @@
-import logo from './logo.svg';
-import './HomePage.css';
+import { Link } from 'react-router-dom';
+import logo from '../assets/logo.svg';
+import '../styles/HomePage.css';
 
 function HomePage() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Colour Matching Game
-        </p>
-        <a
-          className="App-link"
-          href="#"
-        >
+        <p>Colour Matching Game</p>
+        <Link className="App-link" to="/play">
           Play Game
-        </a>
+        </Link>
       </header>
     </div>
   );
