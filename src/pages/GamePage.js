@@ -3,8 +3,8 @@ import '../styles/GamePage.css';
 
 function GamePage() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="Game-Page">
+      <header className="Game-Page-Header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Level 1</p>
       </header>
